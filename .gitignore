@@ -1,0 +1,47 @@
+# Maven build output
+target/
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Portable Maven
+.maven/
+
+# IDE specific files
+.idea/
+*.iml
+.settings/
+.classpath
+.project
+.metadata
+/bin/
+/tmp/
+
+# Log files
+*.log
+logs/
+
+# Operating System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Secrets and Environment configs
+.env
+.env.*
+*.pem
+*.key
+*.cert
+
+# Node / Frontend / Deployments
+node_modules/
+.vercel/
+www/
+scratch/
+
+
+.vercel
+.env*
